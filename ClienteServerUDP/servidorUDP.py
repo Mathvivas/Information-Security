@@ -8,7 +8,7 @@ host = 'localhost'
 porta = 5432
 
 s.bind((host, porta))
-mensagem = 'Servidor: Oláaa Cliente! E aí, beleza?'
+mensagem = '\nServidor: Oláaa Cliente! E aí, beleza?'
 
 while 1:
     dados, end = s.recvfrom(4096)
