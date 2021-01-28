@@ -8,7 +8,7 @@ ip_ou_host = input("Digite o IP ou HOST a ser verificado: ")
 print("-" * 60)
 
 # Chamando o módulo system da biblioteca os
-# Chamando o comando ping com 6 pacotes 
+# Chamando o comando ping com 6 pacotes
 os.system(f'ping -c 6 {ip_ou_host}')
 
 print("-" * 60)
