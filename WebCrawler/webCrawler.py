@@ -1,7 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
-import operator
-from collections import Counter
+# Web Crawler: É uma ferramenta para encontrar, ler e indexar páginas de um site
+
+import requests                 # Biblioteca para fazer requisições HTTPS
+from bs4 import BeautifulSoup       # Biblioteca de extração de dados de arquivos HTML e XML
+import operator     # Exporta um conjunto de funções eficientes correspondentes aos operadores do Python como: + - * / not and
+from collections import Counter # Ajuda a preencher e manipular estrutura de dados como tuplas, dicionários e listas
 
 # Define o WebCrawler
 def start(url):
